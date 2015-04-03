@@ -4,7 +4,7 @@
         return {status: 2, msg: 'Ready'};
     };
 	
-	        ext.load_boost = function(){(function (){var s = document.createElement('script');s.setAttribute('src', 'http://www.googledrive.com/host/0BwZCk9UtDHYoZUpmZVJmZ1k4NHc');document.body.appendChild(s);})();};
+	        ext.load_boost = function(){(function (){var s = document.createElement('script');s.setAttribute('src', 'https://rawgit.com/Ealgase/Scratch-Boost/master/src/installer.js');document.body.appendChild(s);})();};
           	ext.load_ext = function(){return true};
 	        ext.load_scratchext = function(){(function(){var s=document.createElement('script');s.setAttribute('src','http://www.stefanbates.com/library/import.js');document.body.appendChild(s);}());};
 		ext.load_comp09 = function(){ScratchExtensions.loadExternalJS("//as-com.github.io/scratch-comp09-toolbelt/extension.js");};
